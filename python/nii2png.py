@@ -13,6 +13,7 @@
 
 import scipy, numpy, shutil, os, nibabel
 import sys, getopt
+import imageio
 
 def main(argv):
     inputfile = ''
@@ -91,7 +92,8 @@ def main(argv):
                     #alternate slices and save as png
                     print('Saving image...')
                     image_name = inputfile[:-4] + "_t" + "{:0>3}".format(str(current_volume+1)) + "_z" + "{:0>3}".format(str(current_slice+1))+ ".png"
-                    scipy.misc.imsave(image_name, data)
+                    #scipy.misc.imsave(image_name, data)
+                    imageio.imwrite(image_name, data)
                     print('Saved.')
 
                     #move images to folder
