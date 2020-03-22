@@ -66,7 +66,7 @@ pip install nii2png
 ```
 Or alternatively, download the binary files here.
 
-Download Latest Build: [Download](https://raw.githubusercontent.com/alexlaurence/NIfTI-Image-Converter/master/python/nii2png.py)
+Download Latest Build: [Download](https://github.com/snanook/NIfTI-Image-Converter/blob/master/python/nii2png.py)
 
 Download Stable Release: [Download](https://github.com/alexlaurence/NIfTI-Image-Converter/releases)
 
