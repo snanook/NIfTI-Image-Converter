@@ -47,7 +47,7 @@ sudo easy_install pip
 4. Install plugins
 
 ```
-pip install scipy
+~~pip install scipy~~ (used .misc   is depreciated, no longer needed.)
 
 ~~pip install shutil~~
 (No need to install, It is part of the standard library.)
@@ -62,7 +62,7 @@ pip install imageio
 ## Download nii2png for Python
 You can download the latest version of nii2png through pip.
 ```
-pip install nii2png
+~~pip install nii2png~~ (will not install with pip)
 ```
 Or alternatively, download the binary files here.
 
