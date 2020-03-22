@@ -49,11 +49,14 @@ sudo easy_install pip
 ```
 pip install scipy
 
-pip install shutil
+~~pip install shutil~~
+(No need to install, It is part of the standard library.)
 
 pip install nibabel
 
 pip install numpy
+
+pip install imageio
 ```
 
 ## Download nii2png for Python
